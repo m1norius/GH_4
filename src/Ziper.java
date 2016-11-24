@@ -25,7 +25,6 @@ public class Ziper {
 		    
 		} catch (IOException e) {
 			System.out.println("Access Denied: "+ path +"/"+ Paths.get(Main.list_of_data.get(i)).getFileName());
-			e.printStackTrace();
 			return;
 		}
 	}
